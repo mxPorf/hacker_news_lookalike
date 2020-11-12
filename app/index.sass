@@ -1,0 +1,105 @@
+$main-green: rgb(0, 136, 83)
+$main-red: rgb(170,70,65)
+$main-black: rgb(40,50,54)
+$main-gold: rgb(139,111,78)
+$grey-background: rgba(0,0,0,0.08)
+
+
+html, body, #app
+  margin: 0
+  height: 100%
+  width: 100%
+
+body
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue, sans-serif
+
+ul
+  padding: 0
+
+li
+  list-style-type: none
+
+.h3-normal
+  margin-bottom: 10px
+  margin-top: 25px
+
+.h3-big
+  margin-bottom: 10px
+  margin-top: 25px
+  font-size: 30px
+
+.dark
+  color: #ADADAD
+  background: $main-black
+  min-height: 100%
+
+.container
+  max-width: 1200px
+  margin: 0 auto
+  padding: 50px
+
+.green-icons
+  color: $main-green
+
+.active-nav-link
+  color: $main-green
+
+.nav-link
+  text-decoration: none
+  font-size: 22px
+  font-weight: bold
+
+.nav
+  li
+    margin-right: 10px
+
+.row
+  display: flex
+  flex-direction: row
+
+.space-between
+  justify-content: space-between
+
+.btn-clear
+  border: none
+  background: transparent
+
+.btn-clear:focus
+  outline: none
+
+.title-link
+  color: $main-red
+  text-decoration: none
+
+.title-link:visited
+  color: $main-red
+
+.post-link-dark
+  color: $main-red
+  font-weight: bold
+
+.post-link-dark:visited
+  color: $main-red
+  font-weight: bold
+
+.post-link-light
+  color: $main-black
+  font-weight: bold
+
+.post-link-light:visited
+  color: $main-black
+  font-weight: bold
+
+.comment-light
+  background-color: $grey-background
+  padding: 10px
+  margin: 10px 0
+
+.comment-dark
+  background-color: $main-green
+  padding: 10px
+  margin: 10px 0
+
+.comment-dark
+  a
+    color: white

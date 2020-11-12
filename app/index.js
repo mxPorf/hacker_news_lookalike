@@ -4,6 +4,7 @@ import './index.sass'
 import Nav from './components/Nav'
 import Loading from './components/Loading'
 import {Switch, BrowserRouter as Router, Route} from 'react-router-dom'
+import {ThemeProvider} from './context/theme'
 
 const Top = React.lazy( () => import('./components/Top') )
 const New = React.lazy( () => import('./components/New') )

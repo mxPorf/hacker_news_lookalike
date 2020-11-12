@@ -3,6 +3,9 @@ import {NavLink} from 'react-router-dom'
 import {ThemeConsumer} from '../context/theme'
 import {FaMoon,FaRegSun} from 'react-icons/fa'
 
+const activeStyle = {
+  color: 'rgb(0, 136, 83)'
+}
 
 export default function Nav () {
   return(
@@ -14,7 +17,7 @@ export default function Nav () {
               <NavLink
                 to='/'
                 exact
-                activeClassName='active-nav-link'
+                activeStyle={activeStyle}
                 className='nav-link'
               >
                 Top
@@ -24,7 +27,7 @@ export default function Nav () {
               <NavLink
                 to='/new'
                 exact
-                activeClassName='active-nav-link'
+                activeStyle={activeStyle}
                 className='nav-link'
               >
                 New
